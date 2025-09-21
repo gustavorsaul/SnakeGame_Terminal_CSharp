@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnakeGame_Terminal_CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8ac09373cd73fb0867d697f2bdf4f8bf997b0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af285c8bf563ff43f1224e5fb825241f356a5d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnakeGame_Terminal_CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnakeGame_Terminal_CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

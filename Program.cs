@@ -36,14 +36,16 @@ while (true)
 
             if (snakePos.Equals(currentCord) || snakePosHistory.Contains(currentCord))
             {
+                Console.ForegroundColor = ConsoleColor.Green; // Cobra verde
                 Console.Write("■");
+                Console.ResetColor();
             }
-
             else if (applePos.Equals(currentCord))
             {
+                Console.ForegroundColor = ConsoleColor.Red; // Maçã vermelha
                 Console.Write("*");
+                Console.ResetColor();
             }
-
             else if (x == 0 || y == 0 || x == gridDimensions.X - 1 || y == gridDimensions.Y - 1)
             {
                 Console.Write("#");
