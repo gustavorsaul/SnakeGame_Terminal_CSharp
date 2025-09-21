@@ -36,13 +36,13 @@ while (true)
 
             if (snakePos.Equals(currentCord) || snakePosHistory.Contains(currentCord))
             {
-                Console.ForegroundColor = ConsoleColor.Green; // Cobra verde
+                Console.ForegroundColor = ConsoleColor.Green; 
                 Console.Write("■");
                 Console.ResetColor();
             }
             else if (applePos.Equals(currentCord))
             {
-                Console.ForegroundColor = ConsoleColor.Red; // Maçã vermelha
+                Console.ForegroundColor = ConsoleColor.Red; 
                 Console.Write("*");
                 Console.ResetColor();
             }
