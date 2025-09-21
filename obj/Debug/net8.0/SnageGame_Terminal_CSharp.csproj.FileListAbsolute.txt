@@ -1,0 +1,14 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\bin\Debug\net8.0\SnageGame_Terminal_CSharp.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\bin\Debug\net8.0\SnageGame_Terminal_CSharp.deps.json
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\bin\Debug\net8.0\SnageGame_Terminal_CSharp.runtimeconfig.json
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\bin\Debug\net8.0\SnageGame_Terminal_CSharp.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\bin\Debug\net8.0\SnageGame_Terminal_CSharp.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.AssemblyInfoInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.AssemblyInfo.cs
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\refint\SnageGame_Terminal_CSharp.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\SnageGame_Terminal_CSharp.genruntimeconfig.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\Estudo_C#\SnakeGame_Terminal_CSharp\obj\Debug\net8.0\ref\SnageGame_Terminal_CSharp.dll
