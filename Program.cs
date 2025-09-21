@@ -1,6 +1,4 @@
-﻿
-
-using System.IO.Compression;
+﻿using System.IO.Compression;
 using SnageGame_Terminal_CSharp;
 using SnakeGame_Terminal_CSharp;
 
@@ -62,13 +60,19 @@ while (true)
     {
         tailLength++;
         score++;
-        applePos = new Coord(rand.Next(1, gridDimensions.X - 1), rand.Next(1, gridDimensions.Y - 1));
+        do
+        {
+            applePos = new Coord(rand.Next(1, gridDimensions.X - 1), rand.Next(1, gridDimensions.Y - 1));
+        } while (snakePos.Equals(applePos) || snakePosHistory.Contains(applePos));
     }
 
-    else if (   snakePos.X == 0 || snakePos.Y == 0 ||
-                snakePos.X == gridDimensions.X - 1 || snakePos.Y == gridDimensions.Y - 1 ||
-                snakePosHistory.Contains(snakePos))
+    else if (snakePos.X == 0 || snakePos.Y == 0 ||
+             snakePos.X == gridDimensions.X - 1 || snakePos.Y == gridDimensions.Y - 1 ||
+             snakePosHistory.Contains(snakePos))
     {
+        Console.WriteLine("Game Over!");
+        Console.WriteLine("Pressione qualquer tecla para reiniciar...");
+        Console.ReadKey(true);
         score = 0;
         tailLength = 1;
         snakePos = new Coord(10, 1);
@@ -85,8 +89,7 @@ while (true)
     }
 
     DateTime time = DateTime.Now;
-
-    while ((DateTime.Now - time).Milliseconds < frameDelayMilli)
+    while ((DateTime.Now - time).TotalMilliseconds < frameDelayMilli)
     {
         if (Console.KeyAvailable)
         {
@@ -95,16 +98,20 @@ while (true)
             switch (key)
             {
                 case ConsoleKey.LeftArrow:
-                    movementDirection = Direction.Left;
+                    if (movementDirection != Direction.Right)
+                        movementDirection = Direction.Left;
                     break;
                 case ConsoleKey.RightArrow:
-                    movementDirection = Direction.Right;
+                    if (movementDirection != Direction.Left)
+                        movementDirection = Direction.Right;
                     break;
                 case ConsoleKey.UpArrow:
-                    movementDirection = Direction.Up;
+                    if (movementDirection != Direction.Down)
+                        movementDirection = Direction.Up;
                     break;
                 case ConsoleKey.DownArrow:
-                    movementDirection = Direction.Down;
+                    if (movementDirection != Direction.Up)
+                        movementDirection = Direction.Down;
                     break;
             }
         }
